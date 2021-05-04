@@ -3,7 +3,7 @@ python main.py --dataset_name CUB \
                --wsol_method cam \
                --experiment_name CUB_vgg16_CAM \
                --pretrained TRUE \
-               --num_val_sample_per_class 5 \
+               --num_val_sample_per_class 4 \
                --large_feature_map FALSE \
                --batch_size 32 \
                --epochs 10 \
